@@ -1,0 +1,135 @@
+body {
+    background-color: #262626;
+    color: #bbb;
+    position: relative;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg.jpeg) center/cover fixed no-repeat;
+    color: #bbb;
+    width: 100%;
+    height: 100vh;
+}
+
+.login {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg.jpeg) center/cover fixed no-repeat;
+    color: #bbb;
+    width: 100%;
+    height: 100vh;
+}
+
+.pro_detail {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/bg.jpeg) center/cover fixed no-repeat;
+    color: #bbb;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-titles .shop-icon {
+    border: 1px solid #ffc107;
+    width: 105px;
+    height: 105px;
+    border-radius: 70%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+a {
+    color: #ffc107;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    color: #9e7d1b;
+    text-decoration: none;
+}
+
+button {
+    transition: all .5s ease-in-out !important;
+}
+
+button:hover a {
+    color: #252525;
+}
+
+.pro-img {
+    opacity: 0.5;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-login {
+    background-color: transparent;
+    width: 300px;
+    height: 330px;
+    /* opacity: 0.6; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-sign {
+    background-color: transparent;
+    width: 350px;
+    height: 530px;
+    /* opacity: 0.6; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-admin {
+    background-color: transparent;
+    width: 350px;
+    height: 580px;
+    /* opacity: 0.6; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    object-fit: cover;
+    opacity: 0.5;
+    height: 350px !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(211, 171, 85, 0.6);
+    color: white;
+    transition: left 0.5s;
+    z-index: 10;
+}
+
+.cardd {
+    overflow-x: hidden;
+}
+
+.cardd:hover .overlay {
+    left: 0;
+}
